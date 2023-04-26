@@ -125,6 +125,7 @@
 	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?date_annotation_20190814214101125",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.125Z",
+	"dcterms:modified": "2023-04-26T15:26:25.999Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -166,6 +167,18 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "2.7.3"
 	},
+	"dcterms:contributor": [
+		{
+			"dcterms:contributor": {
+				"@id": "https://github.com/jamescummings",
+				"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Person"
+				],
+				"cwrc:hasName": "James Cummings"
+			}
+		}
+	],
 	"cwrc:hasCertainty": "cwrc:definite"
 }]]>
         </rdf:Description>
