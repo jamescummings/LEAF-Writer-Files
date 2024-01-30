@@ -72,10 +72,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/LEAF-VRE/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?person_annotation_20240123224108689",
+	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/dalloway_exercise.xml?person_annotation_20240123224108689",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-01-23T22:41:08.689Z",
-	"dcterms:modified": "2024-01-23T22:41:08.689Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/jamescummings",
 		"@type": [
@@ -86,10 +85,10 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/LEAF-VRE/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?person_annotation_20240123224108689#Target",
+		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/dalloway_exercise.xml?person_annotation_20240123224108689#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/LEAF-VRE/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml",
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/dalloway_exercise.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -100,7 +99,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/LEAF-VRE/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?person_annotation_20240123224108689#Selector",
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/dalloway_exercise.xml?person_annotation_20240123224108689#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/persName"
 		}
@@ -136,7 +135,7 @@
             <p>Mrs <persName>Dalloway</persName> said she would buy the gloves herself.</p>
             <p>Big Ben was striking as she stepped out into the street. It was eleven o'clock and
                the unused hour was fresh as if issued to children on a beach. But there was
-               something solemn in the deliberate swing of the repeated strokes; something stirring
+               something solemn in the <time>deliberate</time> swing of the repeated strokes; something stirring
                in the murmur of wheels and the shuffle of footsteps.</p>
             <p>No doubt they were not all bound on errands of happiness. There is much more to be
                said about us than that we walk the streets of Westminster. Big Ben too is nothing
