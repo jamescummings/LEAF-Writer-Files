@@ -43,9 +43,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?date_annotation_20230426162625999",
+	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?date_annotation_20230426112625999",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-04-26T15:26:25.999Z",
+	"dcterms:modified": "2023-04-26T15:26:25.999Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -57,7 +58,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?date_annotation_20230426162625999#Target",
+		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?date_annotation_20230426112625999#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml",
@@ -68,10 +69,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.0.1"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?date_annotation_20230426162625999#Selector",
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?date_annotation_20230426112625999#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/dateline/date"
 		}
@@ -85,7 +86,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.0.1"
+		"schema:softwareVersion": "3.6.0"
 	},
 	"cwrc:hasCertainty": "cwrc:definite"
 }]]>
@@ -122,9 +123,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?person_annotation_20190814214101126",
+	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?person_annotation_20190814164101126",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.126Z",
+	"dcterms:modified": "2019-08-14T20:41:01.126Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -136,7 +138,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?person_annotation_20190814214101126#Target",
+		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?person_annotation_20190814164101126#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml",
@@ -147,10 +149,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.7.3"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?person_annotation_20190814214101126#Selector",
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?person_annotation_20190814164101126#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/head/title/persName"
 		}
@@ -165,7 +167,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.7.3"
+		"schema:softwareVersion": "3.6.0"
 	},
 	"cwrc:hasCertainty": "cwrc:low"
 }]]>
@@ -202,9 +204,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?person_annotation_20190814214101127",
+	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?person_annotation_20190814164101127",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.127Z",
+	"dcterms:modified": "2019-08-14T20:41:01.127Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -216,7 +219,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?person_annotation_20190814214101127#Target",
+		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?person_annotation_20190814164101127#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml",
@@ -227,10 +230,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.7.3"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?person_annotation_20190814214101127#Selector",
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?person_annotation_20190814164101127#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/closer/signed/persName/persName"
 		}
@@ -245,7 +248,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.7.3"
+		"schema:softwareVersion": "3.6.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
@@ -282,9 +285,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?place_annotation_20190814214101129",
+	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?place_annotation_20190814164101129",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.129Z",
+	"dcterms:modified": "2019-08-14T20:41:01.129Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -296,7 +300,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?place_annotation_20190814214101129#Target",
+		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?place_annotation_20190814164101129#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml",
@@ -307,10 +311,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.7.3"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?place_annotation_20190814214101129#Selector",
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?place_annotation_20190814164101129#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/opener/note/p[3]/placeName"
 		}
@@ -325,7 +329,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.7.3"
+		"schema:softwareVersion": "3.6.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
@@ -362,9 +366,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?place_annotation_20190814214101130",
+	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?place_annotation_20190814164101130",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.130Z",
+	"dcterms:modified": "2019-08-14T20:41:01.130Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -376,7 +381,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?place_annotation_20190814214101130#Target",
+		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?place_annotation_20190814164101130#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml",
@@ -387,10 +392,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.7.3"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?place_annotation_20190814214101130#Selector",
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?place_annotation_20190814164101130#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[2]/placeName"
 		}
@@ -405,7 +410,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.7.3"
+		"schema:softwareVersion": "3.6.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
@@ -442,9 +447,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?place_annotation_20190814214101131",
+	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?place_annotation_20190814164101131",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:41:01.131Z",
+	"dcterms:modified": "2019-08-14T20:41:01.131Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -456,7 +462,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?place_annotation_20190814214101131#Target",
+		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?place_annotation_20190814164101131#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml",
@@ -467,10 +473,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.7.3"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?place_annotation_20190814214101131#Selector",
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?place_annotation_20190814164101131#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/placeName"
 		}
@@ -485,7 +491,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.7.3"
+		"schema:softwareVersion": "3.6.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
@@ -522,10 +528,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?person_annotation_20230426161814218",
+	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?person_annotation_20230426111814218",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-04-26T15:18:14.218Z",
-	"dcterms:modified": "2023-04-26T15:18:14.218Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/jamescummings",
 		"@type": [
@@ -536,7 +541,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?person_annotation_20230426161814218#Target",
+		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?person_annotation_20230426111814218#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml",
@@ -547,10 +552,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.7.3"
+			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?person_annotation_20230426161814218#Selector",
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Sample%20TEI%20letter.xml?person_annotation_20230426111814218#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[2]/persName"
 		}
@@ -565,7 +570,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.7.3"
+		"schema:softwareVersion": "3.6.0"
 	}
 }]]>
         </rdf:Description>
@@ -585,7 +590,7 @@
 						<date cert="high" when="1935-10-21">21.10.35</date>
 					</dateline>
 					<salute>Dearest -</salute>
-				</opener><p>I have had no letter from you since I left <placeName cert="high" ref="http://www.geonames.org/2673722">Stockholm</placeName>, but I had a nice one from John in an envelope you had sent him. I had sent him one addressed to Copenhagen but he hadn't used it.</p><p>When I reached Oslo yesterday <time cert="high" evidence="internal" instant="unknown" precision="high" unit="cm" xml:space="default" when="T19:00:00Z">evening</time>, <persName key="Bull, Brynjulf 1906-1993" ref="http://viaf.org/viaf/13812240/">Brynjulf Bull</persName> should have been there to meet me, but wasn't. He is not on the telephone, so I took a taxi to his address, which turned out to be a students' club with no one about on Sundays, so I went to a hotel feeling rather non-plussed. But presently he turned up. He had got the <pb n="2"/> time of my arrival wrong, and 
+				</opener><p>I have had no letter from you since I left <placeName cert="high" ref="http://www.geonames.org/2673722">Stockholm</placeName>, but I had a nice one from John in an envelope you had sent him. I had sent him one addressed to Copenhagen but he hadn't used it.</p><p>When I reached Oslo yesterday <time cert="high" evidence="internal" instant="unknown" precision="high" unit="cm" xml:space="default">evening</time>, <persName key="Bull, Brynjulf 1906-1993" ref="http://viaf.org/viaf/13812240/">Brynjulf Bull</persName> should have been there to meet me, but wasn't. He is not on the telephone, so I took a taxi to his address, which turned out to be a students' club with no one about on Sundays, so I went to a hotel feeling rather non-plussed. But presently he turned up. He had got the <pb n="2"/> time of my arrival wrong, and 
 						when
 					he had found he had missed me he phoned to <hi cert="high" xml:space="default" rend="italic">every</hi> hotel in Oslo till he hit on the right one. He left me at 10, and then I had to do a Sunday Referee article. Today my journey lasts from 9 till 9 - fortunately one of the most beautiful railway journeys in the world. Tomorrow I lecture at <placeName cert="high" ref="http://www.geonames.org/6548528">Bergen</placeName> to the Anglo-Norwegian Society. Next day I go back to Oslo, lecture there Fri. and Sat. and then start for home via Bergen.</p>
 				<pb n="3"/>
