@@ -274,6 +274,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/dalloway_exercise.xml?person_annotation_20250416231907673",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-04-16T22:19:07.673Z",
+	"dcterms:modified": "2025-04-16T22:19:07.673Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/jamescummings",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "James Cummings"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/dalloway_exercise.xml?person_annotation_20250416231907673#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/dalloway_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://31283590-review-262-add-cu-yq6u1s.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/dalloway_exercise.xml?person_annotation_20250416231907673#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/refs/heads/main/testAuthoriity.xml#person-SB1",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://31283590-review-262-add-cu-yq6u1s.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <projectDesc>
             <p>This encoded file was created by Diane Jakacki and made available for a Linked
@@ -307,8 +386,8 @@
             <p>Poor little wretches, she sighed, and pressed forward. Oh, right under the horses'
                noses, you little demon! and there she was left on the kerb stretching her hand out,
                while <persName>Jimmy Dawes</persName> grinned on the further side.</p>
-            <p>A charming woman, poised, eager, strangely white-haired for her pink cheeks, so Scope
-               Purvis, C. B., saw her as he hurried to his office. She stiffened a little, waiting
+            <p>A charming woman, poised, eager, strangely white-haired for her pink cheeks, so <persName key="Susan Brown" ref="https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/refs/heads/main/testAuthoriity.xml#person-SB1">Scope
+               Purvis,</persName> C. B., saw her as he hurried to his office. She stiffened a little, waiting
                for Durtnall's van to pass. Big Ben struck the tenth; struck the eleventh stroke. The
                leaden circles dissolved in the air. Pride held her erect, inheriting, handing on,
                acquainted with discipline and with suffering. How people suffered, how they
