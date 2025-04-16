@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <standOff>
+      <listPerson>
+         <person xml:id="person-ABC123">
+            <persName>Display Name</persName>
+            <!-- the entity may contain any other valid TEI content -->
+         </person>
+
+         <person xml:id="person-JC1">
+            <persName>James Cummings</persName>
+            <affiliation>Newcastle University</affiliation>
+            <faith>None</faith>
+            <socecStatus>Variable</socecStatus>
+            <nationality>Canadian</nationality>
+            <nationality>American</nationality>
+            <nationality>British</nationality>
+            <note> Some information about James here. </note>
+         </person>
+
+         <person xml:id="person-SB1">
+            <persName>Susan Brown</persName>
+            <note>Some information about Susan here.</note>
+         </person>
+
+      </listPerson>
+      <listPlace>
+         <place xml:id="place-BCD234">
+            <placeName>Display Name</placeName>
+            <!-- the entity may contain any other valid TEI content -->
+         </place>
+
+         <place xml:id="place-NCL1">
+            <placeName>Newcastle</placeName>
+            <placeName>Newcastle Upon Tyne</placeName>
+            <placeName>Newcastle Upon Tyne, UK</placeName>
+            <note>Some information about NCL here.</note>
+         </place>
+
+         <place xml:id="place-BU">
+            <placeName>Bucknell University</placeName>
+            <note>Is Bucknell a place or an organisation?</note>
+         </place>
+      </listPlace>
+      <listOrg>
+         <org xml:id="org-CDE345">
+            <orgName>Display Name</orgName>
+            <!-- the entity may contain any other valid TEI content -->
+         </org>
+         <org xml:id="org-NU">
+            <orgName>Newcastle University</orgName>
+            <orgName>University of Newcastle Upon Tyne</orgName>
+            <note>Some stuff about NU here. Like that it has campuses in Malaysia and
+               Singapore</note>
+         </org>
+
+      </listOrg>
+      <listEvent>
+         <event xml:id="event-DEF456">
+            <eventName>Display Name</eventName>
+            <note> Blah blah </note>
+            <!-- the entity may contain any other valid TEI content -->
+         </event>
+
+         <event xml:id="event-BattleOfHastings" when="1066-10-14">
+            <eventName>Battle of Hastings</eventName>
+            <note>Even really needs to allow a date child.</note>
+         </event>
+      </listEvent>
+      <listBibl>
+         <bibl xml:id="work-EFG567">
+            <title>Display Title</title>
+            <!-- the entity may contain any other valid TEI content -->
+         </bibl>
+         <bibl xml:id="work-JC1">
+            <author>Cummings J.</author>
+            <title>The Present and Future of Encoding Text(s).</title> In: <editor>O'Sullivan,
+               J</editor>, ed. <title>The Bloomsbury Handbook to the Digital Humanities</title>.
+               <pubPlace>London</pubPlace>: <publisher>Bloomsbury Publishing</publisher>,
+               <date>2022</date>, <citedRange unit="page">pp. 147-157</citedRange>. </bibl>
+
+         <msDesc xml:id="ms-FGH678">
+            <msIdentifier>
+               <msName>Display Name (or use idno)</msName>
+            </msIdentifier>
+            <!-- the entity may contain any other valid TEI content -->
+         </msDesc>
+         
+         <msDesc xml:id="ms-Dibgy133">
+            <msIdentifier>
+               <idno>Bodleian MS Digby 33</idno>
+               <msName>Digby MS 133</msName>
+               </msIdentifier>
+            <msContents>
+               <p>Contains a number of plays, including the Digby Mary Magdalene and the Digby Conversion of Saint Paul.</p>
+            </msContents>
+         </msDesc>
+         
+         
+      </listBibl>
+      <listObject>
+         <object xml:id="object-GHI789">
+            <objectIdentifier>
+               <objectName>Display Name</objectName>
+            </objectIdentifier>
+            <!-- the entity may contain any other valid TEI content -->
+         </object>
+         <object xml:id="object-barrelManSculpture">
+            <objectIdentifier>
+               <objectName>The Barrel Man</objectName>
+               <objectName>The Dortmund Drayman</objectName>
+               <objectName>The Barrel Man Statue</objectName>
+            </objectIdentifier>
+            <note>
+               A sculpture in <placeName>Leeds</placeName>.
+            </note>
+         </object>
+         
+      </listObject>
+
+
+
+   </standOff>
+   <text>
+      <body>
+         <p>
+            Some body describing the authority lists here.
+         </p>
+
+
+      </body>
+   </text>
+</TEI>
