@@ -6,7 +6,7 @@
 				<title>Sample Document Title</title>
 			</titleStmt>
 			<publicationStmt>
-				<p></p>
+				<p/>
 			</publicationStmt>
 			<notesStmt>
 				<note type="abstract">Sample abstract text</note>
@@ -15,21 +15,10 @@
 				<p>Created from original research by members of CWRC/CSÉC unless otherwise noted.</p>
 			</sourceDesc>
 		</fileDesc>
-	<xenoData>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
-{
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
 			"@id": "dcterms:created"
@@ -41,12 +30,27 @@
 		"oa:motivatedBy": {
 			"@type": "oa:Motivation"
 		},
-		"@language": "en"
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
 	},
-	"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template?date_annotation_20190814144849",
-	"@type": "oa:Annotation",
+	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml?date_annotation_20190814214849331",
+	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:48:49.331Z",
-	"dcterms:issued": "2019-08-14T20:52:48.456Z",
+	"dcterms:modified": "2019-08-14T20:48:49.331Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -58,21 +62,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template?date_annotation_20190814144849#Target",
+		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml?date_annotation_20190814214849331#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template",
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@id": "https://leaf-writer.stage.lincsproject.ca",
 			"@type": "as:Application",
-			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "1.0"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.7.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template?date_annotation_20190814144849#Selector",
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml?date_annotation_20190814214849331#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[2]/note[2]/date"
 		}
@@ -82,27 +86,19 @@
 		"rdf:value": "1934"
 	},
 	"as:generator": {
-		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@id": "https://leaf-writer.stage.lincsproject.ca",
 		"@type": "as:Application",
-		"rdfs:label": "CWRC Writer",
-		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "1.0"
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.7.0"
 	},
-	"oa:hasCertainty": "cwrc:definite"
-}
-]]></rdf:Description>
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
-{
+	"cwrc:hasCertainty": "cwrc:definite"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
 			"@id": "dcterms:created"
@@ -114,12 +110,27 @@
 		"oa:motivatedBy": {
 			"@type": "oa:Motivation"
 		},
-		"@language": "en"
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
 	},
-	"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template?link_annotation_20190814144849",
-	"@type": "oa:Annotation",
+	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml?link_annotation_20190814214849333",
+	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:48:49.333Z",
-	"dcterms:issued": "2019-08-14T20:52:48.456Z",
+	"dcterms:modified": "2019-08-14T20:48:49.333Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -131,21 +142,21 @@
 	},
 	"oa:motivatedBy": "oa:linking",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template?link_annotation_20190814144849#Target",
+		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml?link_annotation_20190814214849333#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template",
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@id": "https://leaf-writer.stage.lincsproject.ca",
 			"@type": "as:Application",
-			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "1.0"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.7.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template?link_annotation_20190814144849#Selector",
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml?link_annotation_20190814214849333#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[3]/note[2]/ref"
 		}
@@ -155,26 +166,18 @@
 		"@type": "cnt:ContentAsText"
 	},
 	"as:generator": {
-		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@id": "https://leaf-writer.stage.lincsproject.ca",
 		"@type": "as:Application",
-		"rdfs:label": "CWRC Writer",
-		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "1.0"
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.7.0"
 	}
-}
-]]></rdf:Description>
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
-{
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
 			"@id": "dcterms:created"
@@ -186,12 +189,27 @@
 		"oa:motivatedBy": {
 			"@type": "oa:Motivation"
 		},
-		"@language": "en"
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
 	},
-	"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template?org_annotation_20190814144849",
-	"@type": "oa:Annotation",
+	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml?organization_annotation_20190814214849334",
+	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:48:49.334Z",
-	"dcterms:issued": "2019-08-14T20:52:48.457Z",
+	"dcterms:modified": "2019-08-14T20:48:49.334Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -203,21 +221,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template?org_annotation_20190814144849#Target",
+		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml?organization_annotation_20190814214849334#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template",
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@id": "https://leaf-writer.stage.lincsproject.ca",
 			"@type": "as:Application",
-			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "1.0"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.7.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template?org_annotation_20190814144849#Selector",
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml?organization_annotation_20190814214849334#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[4]/note/orgName"
 		}
@@ -228,27 +246,19 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@id": "https://leaf-writer.stage.lincsproject.ca",
 		"@type": "as:Application",
-		"rdfs:label": "CWRC Writer",
-		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "1.0"
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.7.0"
 	},
-	"oa:hasCertainty": "cwrc:reasonably certain"
-}
-]]></rdf:Description>
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
-{
+	"cwrc:hasCertainty": "cwrc:medium"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
 			"@id": "dcterms:created"
@@ -260,12 +270,27 @@
 		"oa:motivatedBy": {
 			"@type": "oa:Motivation"
 		},
-		"@language": "en"
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
 	},
-	"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template?correction_annotation_20190814144849",
-	"@type": "oa:Annotation",
+	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml?correction_annotation_20190814214849405",
+	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:48:49.405Z",
-	"dcterms:issued": "2019-08-14T20:52:48.457Z",
+	"dcterms:modified": "2019-08-14T20:48:49.405Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -277,21 +302,21 @@
 	},
 	"oa:motivatedBy": "oa:editing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template?correction_annotation_20190814144849#Target",
+		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml?correction_annotation_20190814214849405#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template",
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@id": "https://leaf-writer.stage.lincsproject.ca",
 			"@type": "as:Application",
-			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "1.0"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.7.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template?correction_annotation_20190814144849#Selector",
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml?correction_annotation_20190814214849405#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[4]/head/choice"
 		}
@@ -302,26 +327,18 @@
 		"rdf:value": "Bibliography"
 	},
 	"as:generator": {
-		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@id": "https://leaf-writer.stage.lincsproject.ca",
 		"@type": "as:Application",
-		"rdfs:label": "CWRC Writer",
-		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "1.0"
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.7.0"
 	}
-}
-]]></rdf:Description>
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
-{
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
 			"@id": "dcterms:created"
@@ -333,12 +350,27 @@
 		"oa:motivatedBy": {
 			"@type": "oa:Motivation"
 		},
-		"@language": "en"
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
 	},
-	"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template?person_annotation_20190814144849",
-	"@type": "oa:Annotation",
+	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml?person_annotation_20190814214849407",
+	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:48:49.407Z",
-	"dcterms:issued": "2019-08-14T20:52:48.457Z",
+	"dcterms:modified": "2019-08-14T20:48:49.407Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -350,21 +382,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template?person_annotation_20190814144849#Target",
+		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml?person_annotation_20190814214849407#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template",
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@id": "https://leaf-writer.stage.lincsproject.ca",
 			"@type": "as:Application",
-			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "1.0"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.7.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template?person_annotation_20190814144849#Selector",
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml?person_annotation_20190814214849407#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[4]/note[2]/persName"
 		}
@@ -375,27 +407,19 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@id": "https://leaf-writer.stage.lincsproject.ca",
 		"@type": "as:Application",
-		"rdfs:label": "CWRC Writer",
-		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "1.0"
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.7.0"
 	},
-	"oa:hasCertainty": "cwrc:definite"
-}
-]]></rdf:Description>
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
-{
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
 			"@id": "dcterms:created"
@@ -407,12 +431,27 @@
 		"oa:motivatedBy": {
 			"@type": "oa:Motivation"
 		},
-		"@language": "en"
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
 	},
-	"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template?title_annotation_20190814144849",
-	"@type": "oa:Annotation",
+	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml?work_annotation_20190814214849409",
+	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:48:49.409Z",
-	"dcterms:issued": "2019-08-14T20:52:48.457Z",
+	"dcterms:modified": "2019-08-14T20:48:49.409Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -424,21 +463,21 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template?title_annotation_20190814144849#Target",
+		"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml?work_annotation_20190814214849409#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template",
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@id": "https://leaf-writer.stage.lincsproject.ca",
 			"@type": "as:Application",
-			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "1.0"
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.7.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/ilovan/Git-Writer-tests/master/templates/prose_template?title_annotation_20190814144849#Selector",
+			"@id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml?work_annotation_20190814214849409#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[2]/note[2]/title"
 		}
@@ -449,18 +488,19 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@id": "https://leaf-writer.stage.lincsproject.ca",
 		"@type": "as:Application",
-		"rdfs:label": "CWRC Writer",
-		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "1.0"
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.7.0"
 	}
-}
-]]></rdf:Description></rdf:RDF></xenoData></teiHeader>
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<div type="prose">
-				<head>Sample Title</head><p>Sample paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent felis purus, placerat sed tempus imperdiet, rutrum eget leo. Nulla facilisi. Morbi laoreet elit in leo dignissim sit amet feugiat ipsum auctor. Sed magna dui, pharetra ac scelerisque ac, varius at odio. Etiam nec nisi orci, mollis dignissim nunc. Fusce vitae libero justo, in ullamcorper sem. Nunc at ipsum arcu, lobortis bibendum libero. Sed ipsum urna, consequat a sodales a, pharetra ut magna. Aliquam sit amet arcu sed mauris volutpat consequat. Nulla quis ornare nulla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus lacinia bibendum porttitor.</p><p>Mauris vestibulum tortor in libero laoreet pharetra. Fusce nec eros mi. Nunc semper porta risus nec volutpat. Mauris tincidunt ultricies dui vitae malesuada. Donec pharetra hendrerit pretium. Maecenas at mi eu arcu congue rhoncus sit amet ac nunc. Nunc at elit et mi laoreet accumsan sed sed augue. Aenean quis massa augue, ac facilisis quam. Sed nisi erat, commodo id ornare vel, ullamcorper sed leo. Donec pellentesque euismod hendrerit. Praesent sollicitudin iaculis gravida. Nulla tristique, diam non gravida tristique, diam purus imperdiet massa, et fermentum magna est commodo justo. Donec venenatis nisl at augue suscipit quis dictum risus iaculis. Donec dapibus purus at justo malesuada a laoreet ligula varius. Fusce erat odio, aliquet viverra auctor in, vehicula vel nulla. Duis suscipit dignissim enim id lacinia.</p>
+				<head>Sample Title</head><p>Sample paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent felis purus, placerat sed tempus imperdiet, rutrum eget leo. Nulla facilisi. Morbi laoreet elit in leo dignissim sit amet feugiat ipsum auctor. Sed magna dui, pharetra ac scelerisque ac, varius at odio. Etiam nec nisi orci, mollis dignissim nunc. Fusce vitae libero justo, in ullamcorper sem. Nunc at ipsum arcu, lobortis bibendum libero. Sed ipsum urna, consequat a sodales a, pharetra ut magna. Aliquam sit amet arcu sed mauris volutpat consequat. Nulla quis ornare nulla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus lacinia bibendum porttitor.</p><p/><p>Display Name</p><p>James Cummings</p><p>Susan Brown </p><p>Display Name Place</p><p>Mauris vestibulum tortor in libero laoreet pharetra. Fusce nec eros mi. Nunc semper porta risus nec volutpat. Mauris tincidunt ultricies dui vitae malesuada. Donec pharetra hendrerit pretium. Maecenas at mi eu arcu congue rhoncus sit amet ac nunc. Nunc at elit et mi laoreet accumsan sed sed augue. Aenean quis massa augue, ac facilisis quam. Sed nisi erat, commodo id ornare vel, ullamcorper sed leo. Donec pellentesque euismod hendrerit. Praesent sollicitudin iaculis gravida. Nulla tristique, diam non gravida tristique, diam purus imperdiet massa, et fermentum magna est commodo justo. Donec venenatis nisl at augue suscipit quis dictum risus iaculis. Donec dapibus purus at justo malesuada a laoreet ligula varius. Fusce erat odio, aliquet viverra auctor in, vehicula vel nulla. Duis suscipit dignissim enim id lacinia.</p>
 			</div>
 			<div type="notes">
 				<head>Notes</head>
