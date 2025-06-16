@@ -290,7 +290,7 @@
 	"id": "https://raw.githubusercontent.com/jamescummings/LEAF-Writer-Files/main/Prose.xml?correction_annotation_20190814214849405",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:48:49.405Z",
-	"dcterms:modified": "2019-08-14T20:48:49.405Z",
+	"dcterms:modified": "2025-06-16T18:07:49.096Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -332,7 +332,19 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.7.0"
-	}
+	},
+	"dcterms:contributor": [
+		{
+			"dcterms:contributor": {
+				"@id": "",
+				"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Person"
+				],
+				"cwrc:hasName": "James Cummings"
+			}
+		}
+	]
 }]]>
         </rdf:Description>
       
